@@ -1,0 +1,8 @@
+# action.yml
+name: 'BMI Calculator'
+description: 'Check for the weight measurement in app in dart'
+runs:
+  using: 'dart'
+branding:
+  icon: 'bmi'  
+  color: 'white'
