@@ -1,5 +1,5 @@
 # action.yml
-name: 'Flutter Runner'
+name: 'bmi-calculator'
 description: 'This action should provides flutter support for your apps to build apks from the repo.'
 runs:
   using: 'docker'
