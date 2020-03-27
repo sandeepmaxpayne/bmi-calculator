@@ -13,7 +13,7 @@ A few resources to get you started if this is your first Flutter project:
 
 # Usage examples
 
-This example first cleans any stale build, gets and updates the dependencies with flutter pub get and then builds a release apk to run on all mobile devices(android) and runs the flutter tests in parallel.
+This example tries to buld arm64 apk when ``` flutter pub get ``` is updated .
 ```
 action.yml
 name: 'bmi-calculator'
