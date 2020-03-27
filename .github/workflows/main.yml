@@ -20,4 +20,4 @@ jobs:
     - name: build apk
       uses: ./action
       with:
-        args: build apk --release -target-platform android-arm64
+        args: build apk --release
