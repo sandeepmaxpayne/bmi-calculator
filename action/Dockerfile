@@ -1,6 +1,6 @@
-#FROM gableroux/flutter
+FROM gableroux/flutter
 
-LABEL version="1.0.0"
+LABEL version="1.12.13"
 LABEL name="flutter"
 LABEL repository="https://github.com/sandeepmaxpayne/bmi-calculator"
 LABEL homepage="https://github.com/sandeepmaxpayne/bmi-calculator"
