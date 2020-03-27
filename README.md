@@ -11,9 +11,10 @@ This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
 
-Usage examples
-This example first cleans any stale build, gets and updates the dependencies with flutter pub get and then builds a release apk to run on all mobile devices(android) and runs the flutter tests in parallel.
+# Usage examples
 
+This example first cleans any stale build, gets and updates the dependencies with flutter pub get and then builds a release apk to run on all mobile devices(android) and runs the flutter tests in parallel.
+```
 action.yml
 name: 'bmi-calculator'
 description: 'Github Flutter action for apk building for arm64 flutter apps.'
@@ -45,7 +46,7 @@ jobs:
       uses: ./action
       with:
         args: build apk --release -target-platform android-arm64
-
+```
 
 - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
